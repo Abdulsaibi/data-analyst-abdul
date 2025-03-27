@@ -16,4 +16,8 @@ Step 1: Data Ingestion and Preparation
 In this step, data ingestion will be done using AWS S3 buckets. For this purpose, 'saibi-retail-raw-abdul' bucket is created to upload the 'Saibi-retail.csv' dataset.
 <img width="1418" alt="Screenshot 2025-03-27 at 2 41 16 PM" src="https://github.com/user-attachments/assets/36b2f8af-aef3-4bde-a631-bc46e6d7303d" />
 
+Step 2: Once the dataset is upload in the raw S3 Bucket, the next step is to clean the dataset. There are total of 17 errors that can be encountered in the dataset which can range from missing values to invalued values or it can be related to formatting issues etc.
+
+The AWS service used in this case will be AWS Glue Databrew to clean the dataset, and perform data profiling and cleaning. The content has no data issues but the column names are changed to Camel case with no space in between, which are easier to read.
+
 
