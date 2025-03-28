@@ -32,7 +32,11 @@ User Output:
 System Output: Two outputs were created based on Gender, Male & Female.
 <img width="1427" alt="Screenshot 2025-03-27 at 4 41 09 PM" src="https://github.com/user-attachments/assets/7648cecb-fe49-42a9-8f93-866bf9ca2bcb" />
 
+# Trend Analysis
+Once the data has been cleaned, we will be using Tableau to conduct our data analysis, starting off with sales trend over the 30 days. As it can be seen that sales start off strong in beginning of the month, then reach thier lowest at the middle of the month, after picking up the pace and going up during the last days of the month.
 
+
+<img width="749" alt="Screenshot 2025-03-27 at 5 07 22 PM" src="https://github.com/user-attachments/assets/d7b5c827-20b7-4b05-b8d6-e0b10cc4c4b4" />
 
 
 
