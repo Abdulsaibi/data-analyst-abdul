@@ -38,7 +38,9 @@ Once the data has been cleaned, we will be using Tableau to conduct our data ana
 <img width="749" alt="Screenshot 2025-03-27 at 5 07 22 PM" src="https://github.com/user-attachments/assets/d7b5c827-20b7-4b05-b8d6-e0b10cc4c4b4" />
 
 # Regression Analysis
-In this step, the Regression analysis will be done on Price per Unit and Total Amount of Sales. The Linear trend line is used for which we will interpret if that the variables are significant or not. The intercept and the coefficient are both statistically significant. It can be stated with confidence that Price per Unit has a large impact on Total Amount because the p-value is far below 0.05. Statistical significance is confirmed because the t-value is greater than 2.Although at a slower rate, sales rise as prices rise. According to the logarithmic model, price increases have a greater impact at lower price points but diminish as prices rise. Given its importance, the model can be applied to pricing strategies, assisting Saibi Retail in forecasting sales at various price points.
+In this step, the Regression analysis will be done on Price per Unit and Total Amount of Sales. The Linear trend line is used for which we will interpret if that the variables are significant or not. The intercept and the coefficient are both statistically significant. It can be stated with confidence that Price per Unit has a large impact on Total Amount because the p-value is far below 0.05. Statistical significance is confirmed because the t-value is greater than 2.
+
+Although at a slower rate, sales rise as prices rise. According to the logarithmic model, price increases have a greater impact at lower price points but diminish as prices rise. Given its importance, the model can be applied to pricing strategies, assisting Saibi Retail in forecasting sales at various price points.
 
 <img width="1240" alt="Screenshot 2025-03-27 at 5 27 30 PM" src="https://github.com/user-attachments/assets/d85628b2-95a3-4292-995b-01b7f921e684" />
 
@@ -57,6 +59,11 @@ Seasonal Trends: In line with noted transaction patterns, sales sharply decline 
 - Why did prices go up? => Product pricing was impacted by inflation and supplier costs.
 - Why did supplier costs rise? Due to supply chain interruptions and market shortages.
 - Why are there shortages in the market? → Supply constraints and global economic instability.
+
+# Segmentation Analysis
+In this step, customer segmentation is done based on preferences, a pattern can be seen based on Male and Female purchase behaviour, such as that majority of the sales that came from Female segments was in Clothing product. While the majority of sales that came from Male segments were on Electronics Products.
+
+<img width="1229" alt="Screenshot 2025-03-27 at 5 45 32 PM" src="https://github.com/user-attachments/assets/cb7f0824-c04b-4566-a84b-6b5694f9ba41" />
 
 
 
