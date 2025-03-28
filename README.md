@@ -2,8 +2,6 @@
 # Project 1: Descriptive analysis of Customer Purchase Behaviours
 Project Objective: In this project, descriptive analysis of customer purchase data at fictional company called 'Saibi-Retail'. 
 
-<img width="802" alt="Screenshot 2025-03-27 at 6 26 03 PM" src="https://github.com/user-attachments/assets/f5a01a97-e25d-446f-a300-053d8cff1ffd" />
-
 The objective is to compile important aspects of consumer purchases, spot patterns, and provide insights that can guide inventory control and marketing plans.
 
 Dataset: The dataset consists 'Saibi-Retail' of transactional data from Saibi World over the past year, containing the following key features:
@@ -17,6 +15,10 @@ Price per Unit: Price per individual item
 Total Amount: Total price of the transaction
 
 # Methodology
+The overall process of cleaning the dataset via AWS can be seen below, where the dataset is downloaded from a generic server, after that it is uploaded into an S3 Bucket. It will now then be cleaned to get rid of any missing or invalid values.
+
+<img width="802" alt="Screenshot 2025-03-27 at 6 26 03 PM" src="https://github.com/user-attachments/assets/f5a01a97-e25d-446f-a300-053d8cff1ffd" />
+
 Step 1: Data Ingestion and Preparation
 In this step, data ingestion will be done using AWS S3 buckets. For this purpose, 'saibi-retail-raw-abdul' bucket is created to upload the 'Saibi-retail.csv' dataset.
 
@@ -95,6 +97,10 @@ Optimize Inventory Management: Close inventory gaps by enhancing forecasting and
 Increase Customer Engagement with Promotions: Develop more alluring offers for infrequent purchasers and customize promotional campaigns to target particular customer segments (e.g., frequent promotions for female customers in clothes).
 
 # Challenges faced
+Among the difficulties the analysis encountered were problems with the data's quality, such as inconsistent and missing records that needed to be cleaned up.  Multiple correlations made regression analysis challenging, and overlapping behaviors made customer segmentation challenging.  It was difficult to correlate behavioral alterations with trends due to the lack of qualitative data, which made integrating qualitative insights with quantitative insights difficult.  Furthermore, elaborate representations caused Tableau's performance to lag, and it was challenging to measure the outside influences on the drop in sales.  Despite being complete, the dataset's few variables only offered a limited amount of additional insight into the underlying reasons for the fall in sales.  Notwithstanding these difficulties, important knowledge about consumer behavior was acquired, and more thorough data can enhance subsequent analysis.
+
+# Conclusion
+This study effectively offered insightful information about Saibi Retail's sales patterns and consumer purchasing patterns.  Notwithstanding obstacles including poor data quality, difficult segmentation, and the narrow range of variables available, important trends were found, such as notable distinctions in the product preferences of male and female consumers.  Additionally, the regression analysis showed a substantial correlation between the total amount spent and the price per unit.  Even though it was challenging to measure the external variables causing the fall in sales, combining quantitative and qualitative data enabled recommendations that could be put into practice.  Future analyses can further optimize consumer engagement, marketing tactics, and inventory management with more thorough data.
 
 
 
