@@ -2,6 +2,8 @@
 # Project 1: Descriptive analysis of Customer Purchase Behaviours
 Project Objective: In this project, descriptive analysis of customer purchase data at fictional company called 'Saibi-Retail'. 
 
+<img width="802" alt="Screenshot 2025-03-27 at 6 26 03 PM" src="https://github.com/user-attachments/assets/f5a01a97-e25d-446f-a300-053d8cff1ffd" />
+
 The objective is to compile important aspects of consumer purchases, spot patterns, and provide insights that can guide inventory control and marketing plans.
 
 Dataset: The dataset consists 'Saibi-Retail' of transactional data from Saibi World over the past year, containing the following key features:
@@ -17,6 +19,8 @@ Total Amount: Total price of the transaction
 # Methodology
 Step 1: Data Ingestion and Preparation
 In this step, data ingestion will be done using AWS S3 buckets. For this purpose, 'saibi-retail-raw-abdul' bucket is created to upload the 'Saibi-retail.csv' dataset.
+
+
 <img width="1418" alt="Screenshot 2025-03-27 at 2 41 16 PM" src="https://github.com/user-attachments/assets/36b2f8af-aef3-4bde-a631-bc46e6d7303d" />
 
 Step 2: Once the dataset is upload in the raw S3 Bucket, the next step is to clean the dataset. There are total of 17 errors that can be encountered in the dataset which can range from missing values to invalued values or it can be related to formatting issues etc.
@@ -80,7 +84,8 @@ These results demonstrate that although both market sectors make a substantial c
 
 After the descriptive analysis has been done, following dashboard will be used to present findings and insights to our stakeholders.
 
-<img width="997" alt="Screenshot 2025-03-27 at 6 12 16 PM" src="https://github.com/user-attachments/assets/ac8ed857-cea7-49a0-bf73-2cbd98b45e83" />
+<img width="1008" alt="Screenshot 2025-03-27 at 6 18 42 PM" src="https://github.com/user-attachments/assets/d9b8cb9c-194f-4f92-83b3-749ec5be370b" />
+
 
 # Key Insights and Recommendations
 Based on the data analysis and patterns uncovered, following recommendations are proposed to ensure that Saibi Retail is on the right track:
@@ -88,6 +93,10 @@ Based on the data analysis and patterns uncovered, following recommendations are
 Modify Pricing Strategies: Consider reassessing prices for important product categories to better meet consumer demands, particularly for those that are in high demand. Providing more flexible pricing might address the drop in sales .
 Optimize Inventory Management: Close inventory gaps by enhancing forecasting and stock monitoring systems, especially for high-turnover items like electronics and apparel.
 Increase Customer Engagement with Promotions: Develop more alluring offers for infrequent purchasers and customize promotional campaigns to target particular customer segments (e.g., frequent promotions for female customers in clothes).
+
+# Challenges faced
+
+
 
 
 
