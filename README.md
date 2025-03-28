@@ -15,13 +15,12 @@ Price per Unit: Price per individual item
 Total Amount: Total price of the transaction
 
 # Methodology
-The overall process of cleaning the dataset via AWS can be seen below, where the dataset is downloaded from a generic server, after that it is uploaded into an S3 Bucket. It will now then be cleaned to get rid of any missing or invalid values.
+The overall process of cleaning the dataset via AWS can be seen below, where the dataset is downloaded from a generic server, after that it is uploaded into an S3 Bucket. It will now then be cleaned to get rid of any missing or invalid values. The cleaned file will be stored in Amazon RDS.
 
 <img width="802" alt="Screenshot 2025-03-27 at 6 26 03 PM" src="https://github.com/user-attachments/assets/f5a01a97-e25d-446f-a300-053d8cff1ffd" />
 
 Step 1: Data Ingestion and Preparation
 In this step, data ingestion will be done using AWS S3 buckets. For this purpose, 'saibi-retail-raw-abdul' bucket is created to upload the 'Saibi-retail.csv' dataset.
-
 
 <img width="1418" alt="Screenshot 2025-03-27 at 2 41 16 PM" src="https://github.com/user-attachments/assets/36b2f8af-aef3-4bde-a631-bc46e6d7303d" />
 
@@ -32,10 +31,12 @@ The AWS service used in this case will be AWS Glue Databrew to clean the dataset
 The job is successful and the outputs are created in 'sab-rtl-trf-abd' S3 Bucket.
 <img width="1434" alt="Screenshot 2025-03-27 at 4 38 43 PM" src="https://github.com/user-attachments/assets/ad7f9400-fbb0-481b-a960-32a947d70704" />
 
-User Output:
+User Output: The user output is stored in the CSV format which is user-friendly.
+
 <img width="1426" alt="Screenshot 2025-03-27 at 4 40 10 PM" src="https://github.com/user-attachments/assets/84040466-c4eb-4c2a-9f9d-0772642774b3" />
 
-System Output: Two outputs were created based on Gender, Male & Female.
+System Output: Two outputs were created based on Gender, Male & Female. Output was generated in PARQUET file format with snappy compression, which is System friendly.
+
 <img width="1427" alt="Screenshot 2025-03-27 at 4 41 09 PM" src="https://github.com/user-attachments/assets/7648cecb-fe49-42a9-8f93-866bf9ca2bcb" />
 
 # Trend Analysis
