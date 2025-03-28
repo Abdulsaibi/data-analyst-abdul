@@ -61,9 +61,38 @@ Seasonal Trends: In line with noted transaction patterns, sales sharply decline 
 - Why are there shortages in the market? → Supply constraints and global economic instability.
 
 # Segmentation Analysis
-In this step, customer segmentation is done based on preferences, a pattern can be seen based on Male and Female purchase behaviour, such as that majority of the sales that came from Female segments was in Clothing product. While the majority of sales that came from Male segments were on Electronics Products.
+When customers' purchase habits are broken down by gender, the segmentation analysis shows clear patterns:
+ 
+Female Clients:
+- The clothing goods category accounted for the majority of sales from female consumers.
+- The overall sales, which exceeded $80,000, were considerably greater due to the contribution of female clients.
+- This implies that women are more likely to make fashion-related purchases and that they may do so more frequently or with greater transaction values.
+
+Male Clients:
+- The Electronics product category was primarily preferred by male consumers.
+- Male client sales were little over $80,000, suggesting a close but marginally smaller contribution to total sales than that of female consumers.
 
 <img width="1229" alt="Screenshot 2025-03-27 at 5 45 32 PM" src="https://github.com/user-attachments/assets/cb7f0824-c04b-4566-a84b-6b5694f9ba41" />
+
+These results demonstrate that although both market sectors make a substantial contribution to total sales, female consumers appear to have a more extensive and sophisticated buying habit, especially when it comes to apparel.  On the other hand, although they spend less overall, male consumers exhibit a considerable interest in technology.  Based on these results, additional segment-specific marketing and inventory strategies can be created, emphasizing product preferences to increase engagement and sales.
+
+# Final Dashboard
+
+After the descriptive analysis has been done, following dashboard will be used to present findings and insights to our stakeholders.
+
+<img width="997" alt="Screenshot 2025-03-27 at 6 12 16 PM" src="https://github.com/user-attachments/assets/ac8ed857-cea7-49a0-bf73-2cbd98b45e83" />
+
+# Key Insights and Recommendations
+Based on the data analysis and patterns uncovered, following recommendations are proposed to ensure that Saibi Retail is on the right track:
+
+Modify Pricing Strategies: Consider reassessing prices for important product categories to better meet consumer demands, particularly for those that are in high demand. Providing more flexible pricing might address the drop in sales .
+Optimize Inventory Management: Close inventory gaps by enhancing forecasting and stock monitoring systems, especially for high-turnover items like electronics and apparel.
+Increase Customer Engagement with Promotions: Develop more alluring offers for infrequent purchasers and customize promotional campaigns to target particular customer segments (e.g., frequent promotions for female customers in clothes).
+
+
+
+
+
 
 
 
